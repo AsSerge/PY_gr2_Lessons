@@ -19,6 +19,7 @@ for i in range(Item):
     y = int(Coord[i][1])
     print(str(x)+","+str(y),table[x][y], sep = " - ")
 print("**********************************************")
+print("Конец цикла исследований")
 
     
         
