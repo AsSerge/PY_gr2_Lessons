@@ -1,7 +1,8 @@
-str = [float(i**2) for i in range(1, 101)]
-for i in str:
-    print(i)
-lst = list(str)
-tpl = tuple(str)
-print(lst.__sizeof__())
-print(tpl.__sizeof__())
+s = {'яблоко':'зеленое','дыня':'желтая','слива':'синяя'}
+print(s)
+print(s['слива'])
+print(list(s.keys()))
+a,b = input().split(',')
+s[a] = b
+print(s)
+
