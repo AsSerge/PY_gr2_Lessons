@@ -5,6 +5,3 @@ lst = list(str)
 tpl = tuple(str)
 print(lst.__sizeof__())
 print(tpl.__sizeof__())
-
-
-
