@@ -1,5 +1,10 @@
-print("Вторник - вечерний вебинар")
-Foll = "Шла маша по шоссе и сосала сушку"
-FollString = Foll.split(" ")
-print (FollString)
-print ("Первое слово", FollString[0])
+str = [float(i**2) for i in range(1, 101)]
+for i in str:
+    print(i)
+lst = list(str)
+tpl = tuple(str)
+print(lst.__sizeof__())
+print(tpl.__sizeof__())
+
+
+
