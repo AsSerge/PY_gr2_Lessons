@@ -33,3 +33,4 @@ for BuyerMame in Buyer:
         print ( "\t", i , ":" , GoodsArr[i] )
     print("*"*40)
 
+
