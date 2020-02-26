@@ -8,4 +8,5 @@ df = pd.DataFrame({
 df.index=['KZ', 'RU', 'BY', 'UA']
 df.index.name = '№'
 df['density'] = df['population'] / df['square'] * 1000000
+
 print(df)
