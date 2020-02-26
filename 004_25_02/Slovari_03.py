@@ -32,3 +32,4 @@ for BuyerMame in Buyer:
     for i in list_key :
         print ( "\t", i , ":" , GoodsArr[i] )
     print("*"*40)
+
