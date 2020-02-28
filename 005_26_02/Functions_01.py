@@ -1,14 +1,21 @@
-def factorial(n):
-    res = 1
-    for i in range(1, n + 1):
-        res *= i
-    return res
-def NewFac(n):
-    if n == 0:
-        return 1
-    else:
-        return n * NewFac(n-1)
+# Задание 1
+# Функция для вычисления среднего арифметического ряда случайных сисел
+import random as rnd
+# Функция вычисления среднего арифметического ряда чисел
+def average_fn(Row):
+    # Возвращает среднее округленное до двух знаков
+    return round(sum(Row)/len(Row), 2)
 
 
-print(factorial(12))
-print(NewFac(12))
+# Получаем случайное количество чисел ряда
+MyCount = rnd.randrange(10, 20, 1)
+print ("Количество чисел ряда:\t", MyCount, "(случайное число)")
+# Получаем ряд случайных чисел
+MyRow = list()
+for k in range(MyCount):
+    MyRow.append(rnd.randrange(1, 50, 1))
+print("Случайные числа (1-50):\t", MyRow)
+print("Среднее арифметичесоке:\t",average_fn(MyRow))
+
+
+
