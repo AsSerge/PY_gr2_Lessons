@@ -15,7 +15,7 @@ MyRow = list()
 for k in range(MyCount):
     MyRow.append(rnd.randrange(1, 50, 1))
 print("Случайные числа (1-50):\t", MyRow)
-print("Среднее арифметичесоке:\t",average_fn(MyRow))
+print("Среднее арифметическое:\t",average_fn(MyRow))
 
 
 
