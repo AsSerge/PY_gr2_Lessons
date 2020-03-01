@@ -7,9 +7,8 @@ Mk = []
 for k in range(10, 100):
     if k % 4 == 0:
         Mk.append(k)
+
 print (">>>>>", sum(Mk))
-
-
 
 
 
