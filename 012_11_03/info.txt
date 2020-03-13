@@ -1,1 +1,2 @@
 ﻿Кластеризация
+https://jakevdp.github.io/PythonDataScienceHandbook/04.08-multiple-subplots.html
